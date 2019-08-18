@@ -42,7 +42,7 @@ Current accounts holders are assigned a debit card with:
   - A 4-digit PIN
 
 ## IBaseRate.java
-- Both accounts use an interface that determines the base interest rate:
+Both the savings and current accounts use an interface that determines the base interest rate:
   - Savings accounts will use 0.25 less than the base rate
   - Checking accounts will use 15% of the base rate
   
